@@ -1,0 +1,153 @@
+* {
+  /*outline: orange solid 1px;*/
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.img-header {
+  width: 100%;
+  height: 75vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+  background: url("../img/SUT1.png") center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.font-header {
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  white-space: nowrap;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0), -2px 2px 5px rgb(0, 0, 0), 2px -2px 5px rgb(0, 0, 0), -2px -2px 5px rgb(0, 0, 0); 
+  padding-left: 20px;
+}
+
+.block-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.title-header {
+  font-size: 5vw;
+  text-align: center;
+  padding-right: 20%;
+}
+
+.title-header::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  top: -15px;
+  right: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-image: url("../img/logo_SUT.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.adress-header {
+  position: absolute;
+  bottom: 10px;
+  margin-left: 60px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(20, 8, 87);
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-3 {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
