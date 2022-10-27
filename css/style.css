@@ -151,3 +151,15 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
 .btn-3 span:hover:after {
   width: 100%;
 }
+
+.conteiner {
+  display: flex;
+}
+
+.left-aside-img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  padding: 5px 10px;
+  border-radius:5px;
+}
